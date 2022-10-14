@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "fbweb",
+  "version": "${version}",
+
+  "name": "Fabric Servlet",
+  "description": "Web Server for Fabric.",
+  "authors": [
+    "LX86"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "MIT",
+  "icon": "assets/fabricservlet/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.lx.fabricservlet.FabricServlet"
+    ]
+  },
+  "mixins": [
+    "fbweb.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7"
+  }
+}
